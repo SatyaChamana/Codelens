@@ -1,0 +1,43 @@
+# Core RAG
+langchain==0.3.*
+langchain-community==0.3.*
+langchain-ollama==0.3.*
+chromadb==0.5.*
+
+# Local Embeddings (fallback if Ollama embeddings are slow)
+sentence-transformers==3.*
+
+# Code Parsing
+tree-sitter==0.23.*
+tree-sitter-python==0.23.*
+tree-sitter-javascript==0.23.*
+tree-sitter-typescript==0.23.*
+
+# Git Operations
+gitpython==3.1.*
+
+# Tokenization
+tiktoken==0.8.*
+
+# API
+fastapi==0.115.*
+uvicorn==0.34.*
+
+# Frontend
+streamlit==1.41.*
+
+# Experiment Tracking
+mlflow==2.19.*
+
+# Utilities
+python-dotenv==1.0.*
+pydantic==2.*
+pydantic-settings==2.*
+rich==13.*          # Pretty CLI output
+
+# Testing
+pytest==8.*
+
+# Dev
+black==24.*
+ruff==0.8.*
